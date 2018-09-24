@@ -6,8 +6,8 @@ import java.time.LocalDateTime;
 
 public class Main {
 
-    static int DESTINATION_PORT = 9999;
-    static int SOURCE_PORT = 5555;
+    static int DESTINATION_PORT = 9999;     // sending on this port
+    static int SOURCE_PORT = 5555;          // listening on this port
     static InetAddress broadcast;
 
 
